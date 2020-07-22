@@ -16,7 +16,7 @@ class Flight():
     def __init__(self, capacity):
         self.capacity = capacity
         self.passengers = []
-
+    #methods of the flight class. 
     def add_passenger(self, name):
         if not self.open_seats():
             return False
